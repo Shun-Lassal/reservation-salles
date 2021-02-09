@@ -1,0 +1,151 @@
+main {
+  height: 100%;
+  width: 100%;
+}
+
+header {
+  display: flex;
+  flex-direction: row-reverse;
+
+  background-color:brown;
+}
+
+header a {
+  margin-top:10px;
+  margin-bottom:10px;
+  margin-left:20px;
+  margin-right:20px;
+  text-decoration:none;
+  color: white;
+}
+
+header a:hover {
+  color:grey;
+}
+
+header.profile{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 30%;
+}
+
+section.profile {
+  display: flex;
+  align-self: baseline;
+}
+
+section.profil2 {
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+  border: 1px solid grey;
+  border-radius:10px;
+  margin-right: 37%;
+  margin-left: 38%;
+  margin-top:20px;
+  padding-bottom:20px;
+  box-shadow:0px 0px 10px 2px;
+}
+
+section.profil4 {
+  text-align:center;
+  margin-bottom:10px;
+}
+
+form {
+  display:flex;
+  flex-direction: column;
+}
+
+form label {
+  display:flex;
+  justify-content: center;
+}
+
+form.action {
+
+}
+
+input.date{
+  text-align:center;
+}
+
+h1 {
+  text-align:center;
+}
+
+section.tab {
+  margin-top:30px;
+  border: 1px solid black;
+  margin-bottom:10px;
+  border-radius:10px;
+  margin:100px;
+  box-shadow:0px 0px 10px 2px;
+}
+
+section.plan {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+section.plan2 {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  border-radius:10px;
+  box-shadow:0px 0px 10px 2px;
+  margin: 100px;
+  width: 600px;
+  height: 600px;
+}
+
+table.planning {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom:20px;
+}
+
+table tr {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+th {
+  text-align:center;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+}
+
+td {
+  width:250px;
+  text-align:center;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+}
+
+h1 {
+  text-decoration:underline;
+}
+
+h2 {
+  text-decoration:underline;
+  text-align:center;
+}
+
+h3 {
+  text-decoration:underline;
+}
+
+span.info {
+  font-size:20px;
+}
+
+a.return {
+  font-size:25px;
+}
